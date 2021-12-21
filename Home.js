@@ -12,7 +12,7 @@ export default function Home(props) {
   const [checked, setChecked] = useState('F');
   const navigation = props.navigation;
   const handlePress = () => {
-    navigation.navigate('Dash', {nome: nome, sexo: checked, peso: peso});
+    navigation.navigate('Agua', {nome: nome, sexo: checked, peso: peso});
   }
 
   return (
