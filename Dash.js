@@ -8,7 +8,7 @@ export default function Dash({route}) {
   return (
     <View style={styles.container}>
       <Text>Bem vindo ao dash, {route.params.nome}</Text>
-      <Text>Seu peso é {route.params.peso}</Text>
+      <Text>Seu peso é {route.params.peso} kg</Text>
       <Text>E você é do sexo {route.params.sexo === "M" ? "Masculino" : "Feminino"}</Text>
     </View>
   );
